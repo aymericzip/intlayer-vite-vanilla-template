@@ -1,0 +1,22 @@
+{
+  "name": "vite-vanilla-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "start:editor": "bun intlayer-editor start --with 'vite dev'"
+  },
+  "dependencies": {
+    "intlayer": "latest",
+    "vanilla-intlayer": "latest"
+  },
+  "devDependencies": {
+    "intlayer-editor": "latest",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.2",
+    "vite-intlayer": "latest"
+  }
+}
